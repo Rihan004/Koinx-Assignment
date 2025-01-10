@@ -33,8 +33,8 @@ A Node.js-based application that tracks cryptocurrency prices, market capitaliza
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/crypto-tracker-service.git
-   cd crypto-tracker-service
+   git clone [https://github.com/your-username/crypto-tracker-service.git](https://github.com/Rihan004/Koinx-Assignment)
+   cd koinx
 2. npm install
 3. Create a .env file in the root directory and add the following environment variables:
    MONGO_URI=your_mongodb_connection_string
