@@ -65,7 +65,7 @@ const calculateStandardDeviation = (prices) => {
 
 app.get('/stats', async (req, res) => {
     try {
-        const { coin } = req.query;  // Get the coin parameter from query string
+        const { coin } = req.query; 
         
         // Validate if coin is one of the allowed coins
         const allowedCoins = ['bitcoin', 'ethereum', 'matic-network'];
@@ -103,7 +103,6 @@ app.get('/deviation', async (req, res) => {
           return res.status(404).json({ error: `No records found for ${coin}` });
       }
 
-      // Extract the prices from the records
       const prices = records.map(record => record.current_price);
 
       // Calculate the standard deviation
